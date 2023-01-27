@@ -1,0 +1,231 @@
+*{
+    /* border: 1px solid red; */
+}
+.container img{
+    width: 100%;    
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    height: 100%;
+}
+.subitem1 img{
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    width: 100%;    
+}
+.container{
+    height: 700px;
+    width: 95%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+    /* padding: 10px; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.item{
+    /* background-color: aqua; */
+    /* width: 40%; */
+    /* margin: 10px; */
+    /* padding: 10px; */
+
+
+}
+.items-1{
+    width: 70%;
+}
+.items-2{
+    width: 35%;
+}
+.sub{
+    /* background-color:blueviolet; */
+    /* justify-content: space-around; */
+    /* padding: 10px; */
+    margin: 10px;
+}
+.subitem1{
+    height: 40%;
+
+}
+.subitem2{
+    height: 55%;
+    display: flex;
+    flex-direction: row;
+
+}
+.sub1{
+    /* background-color: blue; */
+    /* padding: 10px; */
+    /* margin: 10px; */
+    width: 50%;
+   
+}
+.xitem {
+    /* width: 45%; */
+    display: flex;
+    flex-direction: column;
+}
+.xitem1 {
+    /* width: 45%; */
+    display: flex;
+    flex-direction: column;
+}
+.sub2{
+    height: 50%;
+    /* background-color: brown; */
+    /* padding: 10px; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.sub3{
+    height: 50%;
+    /* background-color: brown; */
+    /* padding: 10px; */
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.item1{
+    /* background-color:blueviolet; */
+    
+    margin: 10px;
+}
+.xitems{
+    height: 68%;
+    background-color: black;
+    padding: 10px;
+    
+}
+.xtems1{
+    height: 24%;
+    /* margin-top: 20px; */
+    display: flex;
+    flex-direction: row;
+   
+
+}
+.right{
+    /* background-color: aqua; */
+    /* width: 50%; */
+    
+    margin-top: 50px;
+
+}
+.pic3{
+    width: 30%;
+    /* height: 80%; */
+    /* padding: 10px; */
+}
+.text1{
+    width: 75%;
+    padding: 10px;
+    color: rgb(218, 214, 214);
+    font-weight: 900;
+    font-size: x-large;
+}
+.read1{
+    color: black;
+    font-size:large;
+}
+.read1:hover{
+    color: rgb(207, 47, 47);
+}
+.read2{
+    font-size:15px;
+}
+.xxitem{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+        'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    font-weight:700;
+    object-fit: cover;
+    /* height: 90%; */
+}
+.paragraph1{
+    width: 80%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover ;
+}
+
+    .paragraph2
+    {
+        /* width: 30vw;
+        height: 30vh; */
+        /* position: relative; */
+        /* left: 10cm;
+        margin-top: 30px; */
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 18px;    
+        color: gray;
+        /* width: 80%; */
+        /* margin-left: -45%; */
+        /* margin: 10px; */
+        
+    
+    }
+    button
+{
+    width: 14vw;
+    height: 7.8vh;
+    background-color: rgb(231, 120, 120);
+    font-weight: bold;
+    color: aliceblue;
+    border: none;
+    
+}
+button:hover
+{
+    background-color: black;
+}
+.mainparagraph{
+    background-color: rgb(6, 6, 31);
+    /* position: relative; */
+    /* right: auto; */
+    /* height: 80vh; */
+    /* width: 30vw; */
+    /* margin-top: -13cm; */
+    /* z-index: 300; */
+    /* order: 2; */
+    /* width: 0%; */
+    /* height: 0%; */
+}
+h1
+{
+    color: rgb(231, 144, 13);
+    /* margin-left: 25px; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-top: 10px; */
+    
+}
+h2
+{
+    color: whitesmoke;
+    /* margin-left: 25px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    /* margin: 15px; */
+}
+h2:hover
+{
+    color: rgb(231, 144, 13);
+}
+h3
+{
+    color: whitesmoke;
+    /* margin-left: 25px; */
+    font-size: large;
+    font-family:Inter ExtraLight;
+    font-weight: 100;
+    
+    
+}
+hr{
+    width: 99%;
+    border: 0.7px solid rgb(103, 99, 99);
+    
+}
